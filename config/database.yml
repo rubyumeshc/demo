@@ -1,0 +1,27 @@
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: demo_prod_3
+  username: root
+  password: root123
+  pool: 5
+  host: 127.0.0.1
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: demo_dev_3
+  username: root
+  password: root123
+  pool: 5
+  host: 127.0.0.1
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: demo_test_3
+  username: root
+  pool: 5
+  password: root123
+  host: 127.0.0.1
